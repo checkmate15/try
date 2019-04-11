@@ -45,7 +45,8 @@ public class income_prog {
 				yn =type.next().charAt(0);
 				
 
-				if( yn == 'y'|| yn == 'Y') {					double yh = mh*12;
+				if( yn == 'y'|| yn == 'Y') {					
+					double yh = mh*12;
 					double yti = yh*hw;
 					System.out.println(name + ", your yearly total income = $"+ yti);
 					
